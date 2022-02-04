@@ -10,7 +10,7 @@ class App {
   }
 
   routes() {
-    this.app.get('/ping', (req, res) => {
+    this.app.get('/ping', (_, res) => {
       res.send({ ok: true, msg: 'pong' });
     });
 
