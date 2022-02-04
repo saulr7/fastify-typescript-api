@@ -10,6 +10,9 @@
     "test": "tap --ts",
     "test:watch": "tap --ts -w"
   },
+  "tap": {
+    "check-coverage": false
+  },
   "dependencies": {
     "@types/node": "^17.0.14",
     "fastify": "^3.27.1"
