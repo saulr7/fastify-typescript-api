@@ -18,3 +18,7 @@
 ## Build
 
 ` yarn build ` 
+
+## Tests
+
+` yarn tests ` 
